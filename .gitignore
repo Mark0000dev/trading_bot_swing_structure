@@ -1,0 +1,27 @@
+# secrets
+.env
+credentials/*
+!credentials/.gitkeep
+client_secret*.json
+token.json
+
+# generated data
+data/*
+!data/.gitkeep
+*.csv
+*.png
+*.filepart
+
+# database dumps
+*.sql.backup
+*.dump
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
